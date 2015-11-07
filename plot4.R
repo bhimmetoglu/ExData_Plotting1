@@ -38,7 +38,7 @@ png(file="plot4.png",width = 480, height = 480)
 par(mfrow=c(2,2))
 #(1,1)
 with(data_fin,plot(t,Global_active_power,type="l",
-                   axes=FALSE,xlab="",ylab = "Global Active Power (kilowatts)" ))
+                   axes=FALSE,xlab="",ylab = "Global Active Power" ))
 axis(side=1, at=seq(0,2,1), labels = c("Thu","Fri","Sat"))
 axis(side=2, at=seq(0,6,2))
 box()
